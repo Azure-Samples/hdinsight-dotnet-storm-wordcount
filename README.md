@@ -1,3 +1,9 @@
+---
+services: hdinsight
+platforms: dotnet
+author: blackmist
+---
+
 # hdinsight-dotnet-storm-wordcount
 A basic example of a dotnet-based Apache Storm topology and how to run it on HDInsight. This example randomly emits a sentence, which is then broken into words. Finally, the words are counted and the word and count is emitted.
 
