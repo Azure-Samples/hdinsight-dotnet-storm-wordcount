@@ -80,3 +80,7 @@ The following is a visual representation of the data flow between the components
 ## More information
 
 For more information on working with C# topologies and Storm on HDInsight, see [Develop C# topologies for Apache Storm on HDInsight using HDInsight tools for Visual Studio](https://azure.microsoft.com/documentation/articles/hdinsight-storm-develop-csharp-visual-studio-topology/).
+
+## Project code of conduct
+
+This project has adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/). For more information see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additional questions or comments.
