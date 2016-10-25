@@ -21,9 +21,15 @@ A basic example of a dotnet-based Apache Storm topology and how to run it on HDI
 
 * HDInsight Tools for Visual Studio: See [Get started using HDInsight Tools for Visual Studio](https://azure.microsoft.com/documentation/articles/hdinsight-hadoop-visual-studio-tools-get-started/) to install and configure the HDInsight tools for Visual Studio.
 
-* A Windows-based Storm on HDInsight cluster. See [Get started with Apache Storm on HDInsight](https://azure.microsoft.com/documentation/articles/hdinsight-apache-storm-tutorial-get-started/) for steps on creating a cluster.
+## SCP.NET package version
 
-    > Note: Currently, the HDInsight Tools for Visual Studio only support Storm on HDInsight versions 3.2 clusters.
+The SCP.NET package version that you use for this project depends on the version of Storm installed on your HDInsight cluster. Use the following table to determine what SCP.NET version you must use in your project:
+
+| HDInsight version | Apache Storm version | SCP.NET version |
+|:-----------------:|:--------------------:|:---------------:|
+| 3.3 | 0.10.# | 0.10.#.# |
+| 3.4 | 0.10.# | 0.10.#.# |
+| 3.5 | 1.0.# | 1.0.#.# |
 
 ## About the code
 
